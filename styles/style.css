@@ -1,0 +1,65 @@
+body{
+   font-size:100%;
+   background-color: bisque;
+}
+p{
+   color:black; 
+   font-family:Helvetica;
+}
+h1{
+   color:green; 
+   font-family:Georgia;
+}
+h1,h2,h3{
+   text-shadow: 2px 2px 4px grey;
+}
+.key{
+   font-weight: bold;
+   text-decoration: underline;
+}
+.skills-list{
+   list-style-type: square;
+   color: darkred;
+}
+.duties{
+   list-style-type: circle;
+}
+.cv-columns{
+   display:flex;
+   justify-content: space-between;
+   gap: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+.column{
+   flex:1;
+   background-color: beige;
+}
+@media (max-width: 768px){
+   .cv-colums{
+      flex-direction:column;
+   }
+}
+nav{
+   background-color: whitesmoke;
+   padding: 10px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+}
+nav a{
+   color:black;
+   margin-right: 15px;
+   font-weight: bold;
+}
+nav a:hover{
+   text-decoration:underline;
+}
+.profile-pic{
+   max-width: 150px;
+   border-radius: 50%;
+   border: 3px solid green;
+   float: right;
+   margin-left: 20px;
+   margin-bottom: 10px;
+}
+.header { text-align: right;}
